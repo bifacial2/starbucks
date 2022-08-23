@@ -130,6 +130,9 @@
 .no-scroll {
   overflow: hidden;
 }
+.footer-container {
+  text-align: center;
+}
 @media (max-width: 960px) {
   .text-xl {
     font-size: 30px;
@@ -158,9 +161,6 @@
   .navbar .navbar-nav-left,
   .navbar .navbar-nav-right {
     display: none;
-  }
-  .footer {
-    text-align: center;
   }
 }
 @media (min-width: 1440px) {
